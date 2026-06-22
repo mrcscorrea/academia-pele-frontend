@@ -1,0 +1,10 @@
+============================================================================
+INTEGRANTES DO GRUPO - ACADEMIA PELÉ
+Disciplina: Web Development
+============================================================================
+
+Nome Completo: [Inserir Nome Completo do Integrante 1] - RM: [Inserir RM1]
+Nome Completo: [Inserir Nome Completo do Integrante 2] - RM: [Inserir RM2]
+Nome Completo: [Inserir Nome Completo do Integrante 3] - RM: [Inserir RM3]
+Nome Completo: [Inserir Nome Completo do Integrante 4] - RM: [Inserir RM4]
+Nome Completo: [Inserir Nome Completo do Integrante 5] - RM: [Inserir RM5]
