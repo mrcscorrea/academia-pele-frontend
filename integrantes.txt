@@ -3,8 +3,8 @@ INTEGRANTES DO GRUPO - ACADEMIA PELÉ
 Disciplina: Web Development
 ============================================================================
 
-Nome Completo: [Inserir Nome Completo do Integrante 1] - RM: [Inserir RM1]
-Nome Completo: [Inserir Nome Completo do Integrante 2] - RM: [Inserir RM2]
-Nome Completo: [Inserir Nome Completo do Integrante 3] - RM: [Inserir RM3]
-Nome Completo: [Inserir Nome Completo do Integrante 4] - RM: [Inserir RM4]
-Nome Completo: [Inserir Nome Completo do Integrante 5] - RM: [Inserir RM5]
+Nome Completo: Marcos Vinícios Corrêa dos Santos - RM: 571080
+Nome Completo: Arthur Bergami Lucas - RM: 570679
+Nome Completo: Davi Martins Herculano - RM: 572699
+Nome Completo: Felipe Braga Terzella - RM: 573529
+Nome Completo: Victor Lopes Tavares da Fonseca - RM: 571315
