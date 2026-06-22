@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Peneiras - Academia Pelé</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/app.js" defer></script>
+</head>
+<body>
+
+<h1>Painel do Jogador ⚽</h1>
+
+<section class="box" id="secao-convocacao">
+  <h2>Status de Convocação</h2>
+  <p id="status-convocacao">Aguardando análise da comissão técnica...</p>
+  <div id="detalhes-convocacao" style="display: none; margin-top: 15px;">
+    <p>🎉 <strong>Parabéns! Você foi pré-selecionado!</strong></p>
+    <p style="font-size: 0.9rem; margin-top: 5px;">Seu desempenho atende aos critérios da Academia Pelé.</p>
+    <a href="chat.html?nome=Treinador%20Silva" class="btn" style="margin-top: 10px;">Falar com Treinador</a>
+  </div>
+</section>
+
+<section class="box">
+  <h2>Peneiras Abertas</h2>
+  <ul id="lista-peneiras-abertas">
+    <li>Rio de Janeiro - Campo 1 - 14:00 <span class="badge badge-verde">Aberta</span></li>
+    <li>Niterói - Campo 2 - 16:00 <span class="badge badge-verde">Aberta</span></li>
+    <li>Duque de Caxias - Campo 3 - 10:00 <span class="badge badge-azul">Em breve</span></li>
+  </ul>
+</section>
+
+<!-- Telemetria e Monitoramento de Performance (Desafio Web Dev / BOM / DOM) -->
+<section class="box">
+  <h2>Telemetria do Atleta (Sensores)</h2>
+  <p style="font-size: 0.85rem; color: #cbd5e1; margin-bottom: 15px;">Transmissão em tempo real de sensores wearables</p>
+  
+  <div style="text-align: left; margin: 15px 0; font-size: 0.9rem; line-height: 1.6;">
+    <p>💓 Freq. Cardíaca: <span id="telemetria-bpm" style="font-weight: bold;">--</span> bpm</p>
+    <p>⚡ Vel. Instantânea: <span id="telemetria-velocidade" style="font-weight: bold;">--</span> km/h</p>
+    <p>🔋 Nível de Fadiga: <span id="telemetria-fadiga" style="font-weight: bold;">--</span>%</p>
+    <p style="margin-top: 12px;">Status do Atleta: <span id="status-esforco" class="badge badge-cinza">Aguardando...</span></p>
+  </div>
+  
+  <div style="border-top: 1px solid #334155; padding-top: 12px; margin-top: 15px;">
+    <h3 style="font-size: 0.95rem; color: #cbd5e1; text-align: left; margin-bottom: 8px;">Logs do Rastreador</h3>
+    <table style="width: 100%; margin: 5px 0; font-size: 0.75rem;">
+      <thead>
+        <tr>
+          <th style="padding: 5px;">Horário</th>
+          <th style="padding: 5px;">Métrica</th>
+          <th style="padding: 5px;">Status</th>
+        </tr>
+      </thead>
+      <tbody id="logs-telemetria">
+        <!-- Linhas de log de sincronização inseridas dinamicamente -->
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<a href="login.html" class="btn-secundario">← Sair</a>
+
+</body>
+</html>

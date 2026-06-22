@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cadastro - Academia Pelé</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/app.js" defer></script>
+</head>
+<body>
+
+<h1>Cadastro do Jogador</h1>
+
+<section class="box">
+
+  <form id="form-cadastro">
+
+    <label for="nome">Nome completo</label>
+    <input type="text" id="nome" name="nome" placeholder="Ex: João da Silva">
+
+    <label for="dataNascimento">Data de nascimento</label>
+    <input type="date" id="dataNascimento" name="dataNascimento">
+
+    <label for="cpf">CPF</label>
+    <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00">
+
+    <label for="senha">Senha</label>
+    <input type="password" id="senha" name="senha" placeholder="Mínimo 6 caracteres">
+
+    <label for="sexo">Sexo biológico</label>
+    <select id="sexo" name="sexo">
+      <option value="">Selecione...</option>
+      <option value="MASCULINO">Masculino</option>
+      <option value="FEMININO">Feminino</option>
+    </select>
+
+    <label for="posicao">Posição de jogo</label>
+    <select id="posicao" name="posicao">
+      <option value="">Selecione...</option>
+      <option value="GOLEIRO">Goleiro</option>
+      <option value="ZAGUEIRO">Zagueiro</option>
+      <option value="LATERAL">Lateral</option>
+      <option value="MEIA">Meia</option>
+      <option value="ATACANTE">Atacante</option>
+    </select>
+
+    <button type="submit">Cadastrar</button>
+  </form>
+
+  <a href="login.html" class="btn-secundario">← Voltar</a>
+</section>
+
+</body>
+</html>

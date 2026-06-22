@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chat - Academia Pelé</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/app.js" defer></script>
+<style>
+  .chat-box {
+    background: #1e293b;
+    width: 320px;
+    margin: 20px auto;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: left;
+  }
+  .msg {
+    padding: 8px;
+    border-radius: 8px;
+    margin: 5px 0;
+    word-break: break-word;
+  }
+  .msg-deles { background: #334155; }
+  .msg-eu { background: #22c55e; color: #000; text-align: right; }
+</style>
+</head>
+<body>
+
+<h1 id="chat-titulo">Conversa</h1>
+
+<section class="chat-box">
+  <div id="chat-mensagens" style="max-height: 300px; overflow-y: auto; margin-bottom: 10px; display: flex; flex-direction: column; gap: 5px;">
+    <div class="msg msg-deles">Olá! Vi que fui convocado para a peneira.</div>
+    <div class="msg msg-eu">Isso mesmo! Te espero sábado às 14h.</div>
+  </div>
+
+  <form id="form-chat">
+    <input type="text" id="msg-input" name="mensagem" placeholder="Digite sua mensagem" required style="width: 100%; margin-bottom: 8px;">
+    <button type="submit" style="width: 100%;">Enviar</button>
+  </form>
+</section>
+
+<a href="funcionario.html" id="chat-btn-voltar" class="btn-secundario">← Voltar</a>
+
+</body>
+</html>

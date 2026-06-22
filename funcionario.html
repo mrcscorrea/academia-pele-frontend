@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Área do Funcionário - Academia Pelé</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/app.js" defer></script>
+</head>
+<body>
+
+<h1>Área do Funcionário</h1>
+
+
+<section class="box">
+  <h2>Marcar Peneira</h2>
+  <form id="form-marcar-peneira">
+
+    <label for="localidade">Localidade</label>
+    <input type="text" id="localidade" name="localidade" placeholder="Ex: Rio de Janeiro - Campo 1">
+
+    <label for="campos">Campos disponíveis</label>
+    <input type="number" id="campos" name="campos" placeholder="Ex: 2">
+
+    <label for="capacidade">Capacidade máxima</label>
+    <input type="number" id="capacidade" name="capacidade" placeholder="Ex: 66">
+
+    <label for="categoria">Categoria</label>
+    <select id="categoria" name="categoria">
+      <option value="">Selecione...</option>
+      <option value="SUB11_M">Sub-11 Masculino</option>
+      <option value="SUB13_M">Sub-13 Masculino</option>
+      <option value="SUB15_M">Sub-15 Masculino</option>
+      <option value="SUB17_M">Sub-17 Masculino</option>
+      <option value="SUB20_M">Sub-20 Masculino</option>
+      <option value="SUB15_F">Sub-15 Feminino</option>
+      <option value="SUB17_F">Sub-17 Feminino</option>
+      <option value="SUB20_F">Sub-20 Feminino</option>
+    </select>
+
+    <label for="inicio">Horário de início</label>
+    <input type="time" id="inicio" name="inicio">
+
+    <label for="fim">Horário de fim</label>
+    <input type="time" id="fim" name="fim">
+
+    <button type="submit">Marcar Peneira</button>
+  </form>
+</section>
+
+<section class="box">
+  <h2>Peneiras Marcadas</h2>
+  <ul id="lista-peneiras-funcionario">
+    <!-- Peneiras cadastradas dinamicamente via JS aparecerão aqui -->
+  </ul>
+</section>
+
+<section class="box">
+  <h2>Contatar Jogador</h2>
+  <form id="form-contatar-jogador">
+
+    <label for="nomeJogador">Nome do jogador</label>
+    <input type="text" id="nomeJogador" name="jogador" placeholder="Ex: João da Silva">
+
+    <button type="submit">Iniciar conversa</button>
+  </form>
+</section>
+
+<a href="login.html" class="btn-secundario">← Sair</a>
+
+</body>
+</html>
