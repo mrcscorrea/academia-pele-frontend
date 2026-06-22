@@ -5,8 +5,6 @@ Este projeto representa o portal interativo da **Academia Pelé**, uma plataform
 
 ---
 
-## 📋 Integrantes do Grupo
-*Os nomes completos e RMs dos integrantes estão disponíveis no arquivo [integrantes.txt](file:///C:/Users/User/Desktop/CHALLENGE/integrantes.txt).*
 
 ---
 
@@ -23,7 +21,7 @@ Este guia orienta o professor sobre como testar todas as interações dinâmicas
 
 ### 1. Fluxo de Cadastro do Jogador (`cadastro.html`)
 * **Onde clicar**:
-  1. Abra a página inicial `login.html` e clique em **"Sou Jogador"** (redireciona para `cadastro.html`).
+  1. Abra a página inicial `index.html` e clique em **"Sou Jogador"** (redireciona para `cadastro.html`).
   2. Preencha o formulário e clique no botão **"Cadastrar"**.
 * **Comportamento Lógico/Visual Esperado**:
   * **Validação Dinâmica do DOM**: Se algum campo estiver incorreto (ex: nome curto, senha com menos de 6 caracteres ou CPF que não possua 11 números), a borda do input ficará vermelha (aplicando a classe `.error`) e um **alerta do navegador (BOM)** detalhará os erros encontrados.
